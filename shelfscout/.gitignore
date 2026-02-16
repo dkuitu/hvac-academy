@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+*.js.map
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test / Coverage
+coverage/
+
+# Flutter
+client/.dart_tool/
+client/.packages
+client/.pub-cache/
+client/.pub/
+client/build/
+client/.flutter-plugins
+client/.flutter-plugins-dependencies
+client/ios/Pods/
+client/ios/.symlinks/
+client/android/.gradle/
+client/android/local.properties
+client/android/app/debug/
+client/android/app/profile/
+client/android/app/release/
+client/*.iml
+client/.metadata
+
+# Server
+server/dist/
+
+# Redis
+dump.rdb
